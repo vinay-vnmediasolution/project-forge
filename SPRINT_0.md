@@ -37,7 +37,7 @@ Establish the smallest durable operating system needed to begin Project Forge wi
 - [x] `CLAUDE.md`
 - [x] Initial GitHub issues created
 - [x] Sprint 0 and Sprint 1 milestones created
-- [ ] Charter reviewed by Vinay
+- [x] Charter reviewed and approved by Vinay
 - [ ] Sprint 1 goal and capacity confirmed
 
 ## Definition of done
