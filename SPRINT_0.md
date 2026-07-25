@@ -38,7 +38,7 @@ Establish the smallest durable operating system needed to begin Project Forge wi
 - [x] Initial GitHub issues created
 - [x] Sprint 0 and Sprint 1 milestones created
 - [x] Charter reviewed and approved by Vinay
-- [ ] Sprint 1 goal and capacity confirmed
+- [x] Sprint 1 goal and capacity confirmed
 
 ## Definition of done
 
@@ -60,8 +60,19 @@ Sprint 0 is done when:
 
 ## Retrospective
 
-Complete at sprint close:
+### What created momentum
 
-- What created momentum?
-- What introduced friction?
-- What should Project Forge start, stop, and continue?
+- Starting from an empty repository and shipping the smallest useful foundation immediately
+- Converting decisions into files, issues, milestones, and explicit definitions of done
+- Using a short evidence-based interview instead of relying on assumed skill ratings
+
+### What introduced friction
+
+- Different GitHub access surfaces showed inconsistent authentication and comment state
+- The original programme vision contained enough good ideas to make premature expansion tempting
+
+### Start, stop, continue
+
+- **Start:** Use issue-first sprint planning, independent coding checkpoints, and review teach-backs.
+- **Stop:** Treating websites, branding, extra channels, or speculative platforms as prerequisites.
+- **Continue:** Keep one active build, connect learning to existing experience, and move distractions to the parking lot.
