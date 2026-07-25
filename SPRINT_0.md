@@ -35,8 +35,8 @@ Establish the smallest durable operating system needed to begin Project Forge wi
 - [x] `CONTRIBUTING.md`
 - [x] `AGENTS.md`
 - [x] `CLAUDE.md`
-- [ ] Initial GitHub issues created
-- [ ] Sprint 0 and Sprint 1 milestones created
+- [x] Initial GitHub issues created
+- [x] Sprint 0 and Sprint 1 milestones created
 - [ ] Charter reviewed by Vinay
 - [ ] Sprint 1 goal and capacity confirmed
 
@@ -65,4 +65,3 @@ Complete at sprint close:
 - What created momentum?
 - What introduced friction?
 - What should Project Forge start, stop, and continue?
-
