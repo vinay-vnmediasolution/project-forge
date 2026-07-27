@@ -3,9 +3,7 @@
 The portfolio record. If someone reads one file in this repository, it should
 be this one.
 
-**Rule:** an entry is created only when the work is finished and in use.
-Nothing in progress, nothing planned. `BACKLOG.md` holds intent; this file
-holds proof.
+**Rule:** an entry is created only for a completed, independently inspectable increment. Its status must say whether it is a checkpoint, prototype, supervised pilot, production deployment or retired system. A prototype may evidence a narrow skill, but it cannot satisfy a phase gate that requires real use. Nothing merely planned belongs here; `BACKLOG.md` holds intent.
 
 **Second rule:** every entry must survive *"defend this for twenty minutes."*
 
@@ -25,13 +23,13 @@ publishes.
 |---|---|
 | **Date** | |
 | **Requirements** | R1, R3, ... |
-| **Status** | In use / Retired / Prototype |
+| **Status** | Checkpoint / Prototype / Supervised pilot / Production / Retired |
 | **Artefact** | repo / URL |
 | **Published as** | article or write-up link, or "not published" |
 
 **Problem** — one sentence. The problem, not the solution.
 
-**Users** — who used it, by role. "Nobody yet" is valid and important.
+**Users** — who used it, by role. "Nobody yet" is valid for a checkpoint or prototype and must not be presented as adoption.
 
 **Built** — three sentences. What it does, how it works.
 
@@ -90,7 +88,6 @@ hardest.
 
 ## Confidentiality
 
-Client and employer material appears only in abstracted form: no names, no
-internal system details, no real figures without written permission. Where a
+Client and employer material appears only in abstracted form: no names, email content, identifying metadata, internal system details or real figures without written permission. Where a
 client outcome is quoted, permission is obtained first and noted against the
 entry. See the publishing rule in `PLAN.md`.
