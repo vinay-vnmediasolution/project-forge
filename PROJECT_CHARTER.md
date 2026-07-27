@@ -40,7 +40,7 @@ Other initiatives may offer safe use cases or benefit from Project Forge skills.
 
 ## Working principles
 
-1. **Ship every sprint.** Produce a reviewable outcome, not theory alone.
+1. **Ship each phase.** Produce working, reviewable evidence, not theory alone.
 2. **One active build.** New ideas go to the parking lot unless they replace current scope deliberately.
 3. **Finish before expanding.** Meet the definition of done before starting the next major build.
 4. **Learn just in time, then go deeper.** Alternate explanation, implementation, feedback, and improvement.
