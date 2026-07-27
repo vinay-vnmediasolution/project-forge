@@ -26,34 +26,17 @@ Nothing here is single-purpose.
 
 ---
 
-## Market reality (researched July 2026)
+## Market snapshot (verified 27 July 2026)
 
-**Australia is thin but real.** FDE-titled roles have been advertised in Sydney
-and Melbourne by Palantir, OpenAI, Databricks, Salesforce and Deloitte, plus at
-least one local startup. Palantir's Australian presence skews Sydney and
-Canberra, much of it government work requiring security clearance. This is a
-handful of roles, not a flood — and the large Australian banks and tech
-companies are doing the work without yet using the title.
+The Australian market is small but directly evidenced. Current official sources include:
 
-**Implications:**
+- [Salesforce — Forward Deployed Engineer, Sydney or Melbourne](https://careers.salesforce.com/en/jobs/jr343861/forward-deployed-engineer/), posted 27 May 2026
+- [OpenAI — Forward Deployed Engineer, Sydney](https://openai.com/careers/search/?q=forward+deployed+engineer)
+- [Palantir — Sydney roles](https://jobs.lever.co/palantir?by=location&location=Sydney%2C+Australia), including an AUS Government FDSE role requiring clearance eligibility
 
-1. Do not wait for volume on Seek. By the time the title is common, the
-   advantage is gone.
-2. Search adjacent titles as well.
-3. Remote-to-US and APAC-regional roles widen the pool considerably.
-4. Salesforce has posted this role in Melbourne specifically. Deloitte
-   Australia has posted across Sydney, Melbourne, Brisbane and Canberra.
+These sources support three conclusions: relevant roles exist in Australia; adjacent deployment titles matter; and the work emphasises hands-on delivery, customer embedding and measurable outcomes. They do **not** establish a broad Australian hiring boom, a universal interview format or an Australian compensation band.
 
-**Compensation:** Australian ads mostly omit salary. A reasonable read is
-senior engineer / AI engineer banding, roughly AUD 180–250k package and above,
-with frontier-lab roles higher. US Palantir FDSE sits around USD 208k on public
-trackers. Treat as indicative only.
-
-**Market posture:** 2024–25 hiring ran on AI FOMO. 2026 hiring rewards a
-demonstrated link between deployments and customer outcomes. Evidence of
-measured impact now beats breadth of tooling.
-
----
+Job links and requirements are time-sensitive. Refresh them monthly and distinguish an active posting from a historical observation.
 
 ## Consolidated requirements
 
@@ -73,9 +56,7 @@ experience, not theoretical familiarity. Deloitte's Palantir practice asks for
 1+ years of shipped GenAI/LLM solutions specifically.
 
 ### R3 — Evaluation-driven thinking
-Eval suites that catch hallucinations, regressions and grounding gaps before
-production. Described as non-negotiable across frontier labs. The most
-consistently listed differentiator on this list.
+Systematic evaluation using representative data, production signals and human judgement. Published accounts of frontier-lab hiring have described evals as non-negotiable; that is an attributed characterisation, not a claim that every FDE posting uses those words. Current OpenAI deployment roles explicitly mention evals, error analysis and tightening success criteria over time.
 
 ### R4 — Data engineering at scale
 ETL/ELT pipelines, warehousing, large-scale integration. Spark, Airflow and dbt
@@ -159,24 +140,23 @@ authorship is where a panel will press.
 **Likely weak (1–2):** R2, R3, R4. **R3 is the highest-leverage gap** — most
 demanded, least commonly held.
 
-**The structural gap nobody advertises:** the strongest predictor for this role
-is having operated as an early-stage builder rather than an enterprise process
-owner. An independent consultancy closes this — positioned as a primary
-engineering credential, not a side venture.
+**Working hypothesis to test:** early-stage building evidence may offset a profile dominated by enterprise process ownership. The consultancy can supply that evidence only when it produces inspectable code, measured outcomes and decisions Vinay can defend.
 
 ---
 
 ## Postings tracked
 
-Refreshed monthly.
+Refreshed monthly. “Verified” means the official posting or official search page was checked on the stated date.
 
-| Company | Title | Location | Seen | Notes |
-|---------|-------|----------|------|-------|
-| Salesforce | FDE (Agentforce) | Sydney / Melbourne | May 2026 | |
-| Deloitte Australia | Forward Deployed Engineer | Syd/Melb/Bne/Cbr | Jun 2026 | |
-| Palantir | FDSE | Sydney | 2026 | Clearance likely |
-| OpenAI | FDE | Sydney | Early 2026 | Check current |
-| Databricks | Sr FDE | AU | 2026 | Check current |
+| Company | Title | Location | Verified | Source note |
+|---------|-------|----------|----------|-------------|
+| Salesforce | Forward Deployed Engineer | Sydney / Melbourne | 27 Jul 2026 | Official posting JR343861 |
+| OpenAI | Forward Deployed Engineer | Sydney | 27 Jul 2026 | Official careers search |
+| Palantir | Forward Deployed Software Engineer — AUS Government | Sydney | 27 Jul 2026 | Official Lever listing; clearance eligibility stated |
+
+Unverified or expired roles may inform later research, but they do not appear here as current evidence.
+
+---
 
 ---
 
