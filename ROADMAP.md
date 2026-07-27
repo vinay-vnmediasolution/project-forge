@@ -4,9 +4,9 @@ This roadmap describes capability progression, not a fixed calendar. Advancement
 
 ## Stage 0 — Establish the operating system
 
-**Outcome:** Project Forge has a clear mission, working agreements, definitions of done, a small backlog, and a ready first sprint.
+**Outcome:** Project Forge established its mission, working agreements, definitions of done and initial backlog.
 
-**Evidence:** The Sprint 0 foundation is committed and the first learning sprint is ready.
+**Status:** Completed historically. The original Sprint 0 artefacts were later retired when the programme moved to the evidence-gated fast track; the decision remains visible in `JOURNEY.md` and git history.
 
 ## Stages 1–4 — Current twelve-week fast track
 
@@ -18,7 +18,7 @@ The dated sequence, milestones and gates are maintained only in [PLAN.md](PLAN.m
 
 These stages develop production Python, Pydantic, FastAPI, pytest, structured outputs, data handling, evaluations and deployment through one real client problem. The previous Automation Opportunity Scorer direction is retired.
 
-## Stage 5 — Agent and workflow engineering
+## Stage 5 — Deeper agent and workflow engineering
 
 **Capability:** Decide when an agent is justified and build one with bounded autonomy.
 
@@ -31,7 +31,7 @@ Topics include:
 - multi-agent trade-offs
 - agent evaluation and observability
 
-**Build evolution:** Add controlled research or workflow tools only where they create measurable value.
+**Direction:** Extend the bounded-agent evidence from the fast track only where additional autonomy creates measurable value.
 
 ## Stage 6 — Forward deployment
 
