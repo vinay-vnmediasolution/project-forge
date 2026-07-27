@@ -5,15 +5,15 @@ Project Forge is currently a focused learning programme with one learner. Contri
 ## Before proposing a change
 
 1. Read the [project charter](PROJECT_CHARTER.md).
-2. Check the active sprint and GitHub issues.
+2. Read `PLAN.md` and check the active GitHub issue.
 3. Use an existing issue or create a focused proposal before substantial work.
 4. Keep speculative ideas in the parking lot until prioritised.
 
 ## Good contributions
 
 - Correct an inaccurate explanation.
-- Improve an exercise or acceptance criterion.
-- Add a realistic, sanitised use case.
+- Improve a build specification, test or acceptance criterion.
+- Add a realistic synthetic or sanitised edge case without exposing client data.
 - Strengthen a test, architecture trade-off, or safety consideration.
 - Make setup or learning evidence clearer.
 
@@ -41,7 +41,8 @@ Do not include:
 - secrets or credentials;
 - employer or client-confidential information;
 - identifying production data;
-- generated content that the contributor cannot explain.
+- generated content that the contributor cannot explain;
+- real client email content, identifying metadata, raw prompts, raw model responses, or sensitive values embedded in logs.
 
 ## Documentation style
 

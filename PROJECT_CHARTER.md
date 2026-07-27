@@ -40,7 +40,7 @@ Other initiatives may offer safe use cases or benefit from Project Forge skills.
 
 ## Working principles
 
-1. **Ship every sprint.** Produce a reviewable outcome, not theory alone.
+1. **Ship each phase.** Produce working, reviewable evidence, not theory alone.
 2. **One active build.** New ideas go to the parking lot unless they replace current scope deliberately.
 3. **Finish before expanding.** Meet the definition of done before starting the next major build.
 4. **Learn just in time, then go deeper.** Alternate explanation, implementation, feedback, and improvement.
@@ -74,8 +74,11 @@ Other initiatives may offer safe use cases or benefit from Project Forge skills.
 - Examines teach-backs cold and probes for gaps.
 - Provides a genuinely independent architectural opinion, including
   disagreement with the primary coach.
-- Classifies public claims as defendable, conditional, or unsupported before
-  publication.
+- Examines public claims as directly evidenced, defendable with attribution,
+  conditional and requiring qualification, or unsupported.
+- Interrogates drafts as a hostile hiring panel would and identifies claims
+  Vinay cannot yet defend.
+- Does not ghostwrite articles or allow drafting to replace shipping.
 - Runs interview simulation from November.
 - Does not generate curriculum, plans, or repository structure.
 
@@ -94,3 +97,35 @@ detect the gaps it created. Where coaches disagree, build the smallest thing
 that discriminates between the positions; working software and measurement
 decide.
 
+
+## Definition of done
+
+### Independent learning checkpoint
+
+A checkpoint is done when Vinay has attempted it without AI assistance, can explain and debug the result under cold examination, and has identified where documentation or prior knowledge was insufficient. Elapsed time, completed notes and assisted code do not satisfy this gate.
+
+### Project increment
+
+A project increment is done when:
+
+- the agreed behaviour works and proportionate automated checks pass;
+- configuration and diagnostics respect the data boundary;
+- setup, operation, failure handling and rollback are understood;
+- material trade-offs are recorded without creating unnecessary governance;
+- Vinay can demonstrate, explain and modify the increment;
+- user value is measured where the claim depends on measurement.
+
+A prototype, supervised pilot and production deployment are different states and must be described accurately.
+
+### Phase
+
+A phase is done only when the gate in `PLAN.md` is met, the evidence is recorded in `EVIDENCE.md`, and any public write-up has passed the standards in `WRITING.md`. Incomplete work is split, returned to the backlog or dropped explicitly.
+
+## Governance
+
+- `PLAN.md` governs the dated fast track; `ROADMAP.md` is directional.
+- GitHub issues hold executable work. Build-specific specifications and decisions live with the build.
+- No new governance document is added unless an existing source of truth cannot hold the decision.
+- Dates may move; evidence gates do not weaken.
+- When capacity is constrained, reduce scope before reducing safety or evidence quality.
+- “Parking lot” remains a valid way to stop premature expansion.

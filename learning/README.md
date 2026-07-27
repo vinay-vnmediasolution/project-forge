@@ -1,10 +1,10 @@
 # Learning Notes
 
-This directory is the durable, offline-reviewable knowledge base for Project Forge.
+This directory preserves durable, offline-reviewable notes created during Project Forge. It is not an active curriculum or a prerequisite sequence.
 
 ## What belongs here
 
-- Curated explanations of concepts taught in Project Forge
+- Concise explanations of concepts encountered while building
 - Visual mental models and worked examples
 - Comparisons with Vinay's existing .NET, Azure, integration, and enterprise experience
 - Exercises, debugging challenges, and knowledge checks
@@ -21,27 +21,14 @@ Raw chat transcripts do not belong here. Notes should become clearer and more us
 | Exercise or code | Evidence that the concept was applied |
 | `JOURNEY.md` | Chronological progress and changes in understanding |
 
-One issue normally represents a meaningful learning unit completed over one to three sessions. Do not create an issue for every definition or five-minute exercise.
+Create a learning issue only when a substantial knowledge gap blocks or materially improves the active build. Do not create issues for every definition or short exercise.
 
-## Lesson sequence
+## Note structure
 
-Each lesson should contain:
+Use only the sections that improve later recall: the problem encountered, the relevant mental model, the delta from prior experience, a worked example, common failure modes and Vinay's own teach-back. Avoid producing a lesson merely to complete a template.
 
-1. Learning objective
-2. Why it matters
-3. Plain-language theory
-4. Visual mental model
-5. Important terminology
-6. Connection to prior experience
-7. Worked examples
-8. Common mistakes
-9. Knowledge check
-10. Exercise
-11. Teach-back and reflection
-12. Further reading where useful
+Use [LESSON_TEMPLATE.md](LESSON_TEMPLATE.md) selectively when a substantial note is justified.
 
-Use [LESSON_TEMPLATE.md](LESSON_TEMPLATE.md) when starting a new note.
+## Existing notes
 
-## Active module
-
-- [01 — Python Foundations](01-python-foundations/README.md)
+- [01 — Python Foundations](01-python-foundations/README.md) — historical baseline material retained for review; no longer an active standalone module

@@ -4,74 +4,21 @@ This roadmap describes capability progression, not a fixed calendar. Advancement
 
 ## Stage 0 — Establish the operating system
 
-**Outcome:** Project Forge has a clear mission, working agreements, definitions of done, a small backlog, and a ready first sprint.
+**Outcome:** Project Forge established its mission, working agreements, definitions of done and initial backlog.
 
-**Evidence:** The Sprint 0 foundation is committed and the first learning sprint is ready.
+**Status:** Completed historically. The original Sprint 0 artefacts were later retired when the programme moved to the evidence-gated fast track; the decision remains visible in `JOURNEY.md` and git history.
 
-## Stage 1 — Engineering foundations through a useful API
+## Stages 1–4 — Current twelve-week fast track
 
-**Capability:** Build and explain a production-minded Python service.
+The dated sequence, milestones and gates are maintained only in [PLAN.md](PLAN.md). In summary:
 
-Topics include:
+1. **Supervised email-classification pilot** — define correctness and risk boundaries first; build a deterministic baseline and then a structured LLM service; keep all outcomes human-approved.
+2. **Evaluation and data** — build the client-side golden dataset, measure category-specific errors, catch regressions in CI, and instrument cost and latency.
+3. **Bounded agent and deployment** — add autonomy only where justified, with approvals, auditability, Azure deployment and observability.
 
-- Python fundamentals and type hints
-- HTTP and REST API design
-- validation, error handling, configuration, and logging
-- SQL and persistence
-- unit and integration testing
-- Git workflow and code review
-- containers and basic delivery
+These stages develop production Python, Pydantic, FastAPI, pytest, structured outputs, data handling, evaluations and deployment through one real client problem. The previous Automation Opportunity Scorer direction is retired.
 
-**Anchor to prior experience:** Translate familiar enterprise integration, API, release, and Azure concepts into the Python ecosystem.
-
-**Initial build:** A small, useful **Automation Opportunity Scorer API** that captures a workflow problem and produces a transparent, rules-based opportunity score. AI is intentionally not required in the first increment.
-
-## Stage 2 — System design and dependable delivery
-
-**Capability:** Design a service that remains understandable and operable as requirements grow.
-
-Topics include:
-
-- modular and hexagonal design
-- domain modelling and boundaries
-- authentication and authorization
-- asynchronous work, messaging, and idempotency
-- observability and failure handling
-- CI/CD and Azure deployment
-- architecture decision records
-
-**Build evolution:** Turn the scorer into a deployable service with persistence, identity, auditability, and operational evidence.
-
-## Stage 3 — Data and AI foundations
-
-**Capability:** Make informed AI design choices rather than treating models as magic.
-
-Topics include:
-
-- probability, evaluation, and data quality
-- tokens, embeddings, attention, and transformers
-- model limitations, latency, cost, and privacy
-- structured outputs and tool calling
-- responsible use and threat modelling
-
-**Build evolution:** Add an evidence-based AI-assisted analysis behind a clear interface and compare it with the deterministic baseline.
-
-## Stage 4 — LLM application engineering
-
-**Capability:** Build grounded, testable LLM applications.
-
-Topics include:
-
-- prompt and context design
-- retrieval pipelines and source attribution
-- structured outputs and tool integration
-- model selection and routing
-- caching, cost, latency, and resilience
-- evaluation datasets and regression testing
-
-**Showcase direction:** An AI Discovery Consultant that analyses sanitised process material and produces traceable opportunities, questions, risks, and next steps.
-
-## Stage 5 — Agent and workflow engineering
+## Stage 5 — Deeper agent and workflow engineering
 
 **Capability:** Decide when an agent is justified and build one with bounded autonomy.
 
@@ -84,7 +31,7 @@ Topics include:
 - multi-agent trade-offs
 - agent evaluation and observability
 
-**Build evolution:** Add controlled research or workflow tools only where they create measurable value.
+**Direction:** Extend the bounded-agent evidence from the fast track only where additional autonomy creates measurable value.
 
 ## Stage 6 — Forward deployment
 
@@ -124,5 +71,5 @@ At the end of each stage:
 4. Review business value and user evidence.
 5. Decide whether to deepen, remediate, or advance.
 
-Only Stage 1 should be planned in detail during Sprint 0. Later stages remain direction, not active scope.
+Only the twelve-week fast track is dated. Stages 5–7 remain directional until its evidence gates are complete.
 

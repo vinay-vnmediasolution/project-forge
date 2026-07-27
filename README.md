@@ -6,34 +6,35 @@ Vinay Tripathi is the first learner. The programme is deliberately grounded in h
 
 ## The operating loop
 
-> Learn → Build → Use → Share → Reuse
+> Discover → Specify → Build → Evaluate → Use → Share
 
-Every module should create:
+The sequence matters: public explanation follows working evidence. Reading and writing do not substitute for shipping.
 
-1. Knowledge that can be explained clearly.
-2. A useful working build, not a toy exercise.
-3. Engineering evidence such as tests, documentation, and an architecture decision.
-4. A reflection on what changed in the learner's understanding.
-5. A reusable or public output when it is safe and genuinely valuable.
+## Current focus
 
-- **Current focus:** replace the Sprint 1 Python Foundations paragraph with
-  Phase 1 of `PLAN.md` — ship an email triage service as a supervised client
-  pilot by 17 August.
-- **Start here list:** remove the `CURRICULUM.md` and `SPRINT_0.md` links; add
-  `PLAN.md`, `TARGET_ROLE.md`, `EVIDENCE.md`, `WRITING.md`.
+Phase 1 of [PLAN.md](PLAN.md): specify and build an email-triage and classification service for a supervised client pilot. Before client-build code begins, the classification specification and written client data agreement must be complete. The independent Python checkpoint is a separate synthetic diagnostic and may be attempted without client data.
 
+Start here:
+
+- [Target role and capability gaps](TARGET_ROLE.md)
+- [Twelve-week plan](PLAN.md)
+- [Project charter](PROJECT_CHARTER.md)
+- [Evidence ledger](EVIDENCE.md)
+- [Writing standards](WRITING.md)
+- [Backlog](BACKLOG.md)
+- [Journey log](JOURNEY.md)
 
 ## How work is organised
 
 - One active Project Forge build at a time.
-- Two-week sprints, adjusted when evidence shows a different cadence works better.
+- The dated fast track and its evidence gates live in `PLAN.md`; later roadmap stages remain directional.
 - GitHub issues hold executable work; chat is used for coaching and decisions.
 - Decisions and learning that must survive a chat are written back to this repository.
 - Other initiatives may supply use cases or benefit from the learning, but they do not silently change this programme's scope.
 
 ## Definition of success
 
-Progress is measured by demonstrated capability and completed work, not documents read or tools tried. A sprint ends with something reviewable. A module ends only when the learner can explain, apply, evaluate, and improve the skill.
+Progress is measured by demonstrated capability and completed work, not documents read or tools tried. A phase advances only when its evidence gate is met. Understanding is examined independently; elapsed time and document count are not completion.
 
 See the full definitions of done in the [project charter](PROJECT_CHARTER.md#definition-of-done).
 
@@ -41,4 +42,4 @@ See the full definitions of done in the [project charter](PROJECT_CHARTER.md#def
 
 - Repository: public
 - Programme: active
-- current milestone becomes Phase 1 — Ship one real LLM service.
+- Current phase: Phase 1 — supervised email-classification pilot.
