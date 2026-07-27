@@ -2,15 +2,28 @@
 
 ## Learning method
 
-Each topic uses a repeatable cycle:
+Project work applies the curriculum; it does not replace it. Every substantial topic follows this sequence:
 
-1. **See it** — a visual model, worked example, or system trace.
-2. **Understand it** — the essential theory and vocabulary.
-3. **Connect it** — relate it to Vinay's enterprise, Azure, integration, delivery, consulting, or product experience.
-4. **Build it** — implement a small vertical slice.
-5. **Test it** — verify behaviour and explore failure cases.
-6. **Explain it** — teach it back in plain language.
-7. **Reflect and reuse** — capture lessons and extract a reusable asset where justified.
+1. **Orient** — establish where the topic fits and why it matters.
+2. **Understand** — learn the fundamentals and vocabulary from first principles.
+3. **See it** — use a diagram, worked example, or system trace to form a mental model.
+4. **Connect it** — relate the concept to Vinay's .NET, Azure, enterprise integration, delivery, consulting, or product experience.
+5. **Observe it** — study worked examples that are independent of the active project.
+6. **Check it** — answer questions that test the mental model.
+7. **Practise it** — complete a small isolated exercise with appropriate guidance.
+8. **Apply it** — use the understood concept in a later project increment.
+9. **Demonstrate it** — complete an independent checkpoint and explain the result.
+10. **Record it** — curate the lesson note, reflection, and journey evidence.
+
+Understanding is the gate between learning and project implementation. A GitHub issue cannot force progression when the concept is not yet clear.
+
+## Learning records
+
+- GitHub issues describe intended learning outcomes, completion criteria, and evidence.
+- `learning/` contains durable, curated lesson notes and exercises for offline review.
+- `JOURNEY.md` records chronological progress, changes in understanding, and links to evidence.
+- Lesson notes are not raw chat transcripts.
+- Vinay's teach-back and reflection must be incorporated before a lesson is considered complete.
 
 ## Capability strands
 
@@ -24,102 +37,87 @@ These strands develop together rather than as isolated courses:
 - Communication and consulting
 - Security, governance, and responsible delivery
 
-## First learning block: four two-week sprints
+## First learning block
 
-Only Sprint 1 is considered ready after Sprint 0. Sprints 2–4 are forecast and will be replanned using evidence.
+Only Sprint 1 is active. Later sprints are directional and will be replanned using evidence from completed lessons.
 
-### Sprint 1 — A useful Python API
+### Sprint 1 — Python Foundations
 
-**Question:** How does a professional Python API differ from a script or a demo?
+**Question:** How does Python represent data, control execution, organise behaviour, and communicate failure?
 
 **Learn**
 
-- Python project structure, functions, classes, type hints, and dependency management
-- HTTP requests, responses, status codes, and REST resource design
-- validation, error handling, automated tests, and safe configuration
-- the difference between domain rules and transport code
+- how source code, the Python interpreter, and runtime execution relate;
+- values, variables, built-in types, and mutability;
+- collections, decisions, and iteration;
+- functions, modules, packages, and imports;
+- type hints, exceptions, and debugging;
+- test purpose, structure, and the pytest mental model.
 
-**Build**
+**Practise**
 
-The first vertical slice of an Automation Opportunity Scorer API:
+- short isolated examples;
+- prediction and tracing exercises;
+- small changes made without generated answers;
+- debugging deliberately broken Python;
+- comparisons with familiar C# and .NET concepts.
 
-- accept a sanitised workflow description and measurable pain indicators;
-- validate the request;
-- calculate a transparent deterministic score;
-- return the score, contributing factors, and suggested next discovery questions;
-- include unit tests and API-level tests.
+**Apply**
 
-**Relate**
-
-- Compare Python typing and project structure with familiar .NET patterns.
-- Connect API contracts to enterprise integration experience.
-- Connect repeatable tests to release and automation disciplines.
+At the end of the sprint, build a small pure-Python workflow metrics program. It will reuse a small part of the future Automation Opportunity Scorer problem without introducing HTTP, FastAPI, persistence, Docker, or deployment.
 
 **Demonstrate**
 
-- run the API and tests;
-- explain the request path from endpoint to domain rule and back;
-- explain one design decision and one rejected alternative.
+- run and explain the program;
+- trace how input becomes output;
+- explain values, types, collections, functions, modules, exceptions, and tests in context;
+- extend one behaviour independently;
+- complete a teach-back and reflection.
 
-### Sprint 2 — Persistence and service boundaries
-
-**Question:** How do we preserve useful data without coupling every concern?
-
-Forecast topics:
-
-- relational modelling and SQL
-- repository boundaries and migrations
-- configuration and structured logging
-- integration tests and test isolation
-
-Forecast increment:
-
-- persist assessments and retrieve their history;
-- record score-version information so results remain explainable.
-
-### Sprint 3 — Delivery and operability
-
-**Question:** What changes when software must run reliably for someone else?
+### Sprint 2 — HTTP, APIs, and Application Architecture
 
 Forecast topics:
 
-- containers
-- CI checks
-- health and readiness
-- logging, metrics, and failure modes
-- initial Azure deployment options
+- client/server communication;
+- HTTP requests, responses, methods, URLs, headers, bodies, and status codes;
+- JSON and API contracts;
+- validation and mapping;
+- transport, application, and domain boundaries;
+- comparison with .NET controllers, DTOs, services, and domain classes.
 
-Forecast increment:
-
-- package and deploy the service with a reproducible path and basic operational evidence.
-
-### Sprint 4 — Discovery and product evidence
-
-**Question:** Does the system help someone make a better decision?
+### Sprint 3 — FastAPI and the First API Vertical Slice
 
 Forecast topics:
 
-- discovery interviews
-- workflow mapping
-- outcome metrics
-- usability feedback
-- architecture communication
+- FastAPI routing and request lifecycle;
+- Pydantic models and validation;
+- response models and error handling;
+- unit and API-level testing;
+- project structure and safe configuration.
 
-Forecast increment:
+Forecast application:
 
-- test the service against safe, realistic scenarios;
-- refine the score and questions using feedback;
-- produce the first compact case study and learning review.
+- design and build the first deterministic Automation Opportunity Scorer API slice.
+
+### Later stages
+
+- persistence and service boundaries;
+- containerisation, CI/CD, and Azure delivery;
+- observability and operational resilience;
+- AI-assisted analysis against a deterministic baseline;
+- evaluation, discovery evidence, and product validation.
 
 ## Standard lesson evidence
 
-For each substantial topic:
+For each substantial learning unit:
 
-- a short teach-back;
-- a working change or focused exercise;
-- tests or another proportionate verification;
-- one architecture or trade-off note;
-- a reflection linked from the relevant issue.
+- completed lesson notes;
+- a short knowledge check;
+- a focused exercise;
+- an independent checkpoint;
+- a teach-back in Vinay's own words;
+- a reflection and journey entry;
+- links from the relevant GitHub issue.
 
 ## Assessment
 
@@ -137,4 +135,3 @@ Self-ratings may guide planning, but advancement is based on evidence.
 ## Publishing rule
 
 Public sharing is selected after the work exists. Nothing confidential, employer-specific, client-identifying, or weakly understood is published. A useful repository update, case study, diagram, article, or post may satisfy the sharing step; every channel is never required.
-
