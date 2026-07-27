@@ -34,3 +34,30 @@ The initial Sprint 1 approach moved from a short API explanation directly into p
 ### Next
 
 Restart Sprint 1 with Lesson 01: How Python Executes Programs.
+
+## 2026-07-27 — Lesson 01 completed
+
+### Learned
+
+- How CPython parses source, compiles it into bytecode, and executes it using the Python virtual machine
+- The relationship between names, objects, values, identity, and types
+- Assignment as name binding or rebinding
+- Conversion as creation of an object of the target type
+- The difference between dynamic and strong typing
+- Why supported operations depend on the involved types
+
+### Practised
+
+- Predicted execution without running code first
+- Traced name bindings and types
+- Diagnosed incorrect predictions about string operations and division
+- Wrote a small independent program that converted ticket-count text and calculated monthly tickets
+
+### What became clearer
+
+CPython performs both compilation and interpretation. Names do not carry permanent types; they bind to objects, and the objects have types.
+
+### Evidence
+
+- `learning/01-python-foundations/lessons/01-how-python-runs.md`
+- GitHub Issue #4
