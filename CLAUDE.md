@@ -20,13 +20,16 @@ Inspect the repository and existing work before proposing changes.
 - Add proportionate tests and documentation.
 - Surface uncertainty, hidden coupling, and operational risk.
 - Help Vinay form his own explanation of important concepts.
+- Follow the learning sequence in `CURRICULUM.md` before applying concepts to the project.
+- Write curated lesson material under `learning/`; do not store raw chat transcripts.
+- Leave teach-backs and personal reflections for Vinay to express in his own words.
 
 ## Boundaries
 
 - Do not broaden the current sprint because a more elaborate architecture is possible.
 - Do not add frameworks without a demonstrated need.
 - Do not create parallel projects or repositories.
-- Do not introduce websites, branding, community features, or publishing automation during Sprint 0.
+- Do not introduce FastAPI, API design, databases, Docker, deployment, websites, branding, community features, or publishing automation during Sprint 1 unless the active issue explicitly changes the scope.
 - Do not include confidential employer or client information.
 - Do not commit credentials, tokens, production data, or identifying examples.
 
