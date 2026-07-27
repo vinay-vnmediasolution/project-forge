@@ -23,8 +23,7 @@ this as evidence.
 1. **No article without a shipped artefact behind it.** Writing follows
    building. An essay about work not yet done does not publish.
 2. **Lead with what went wrong.** The `EVIDENCE.md` "what I got wrong" field is
-   the most publishable material in this repository. A post about a thing that
-   worked first time is a post nobody needed.
+   the most publishable material in this repository. A piece claiming everything worked first time needs especially strong evidence and is less useful than an honest failure analysis.
 3. **Show the artefact.** Link the repo, the eval output, the diagram, the
    number. Assertion without artefact reads as content marketing.
 4. **Never publish an undefendable claim.** Classify material claims as directly evidenced, defendable with attribution, conditional and requiring qualification, or unsupported. Anything public becomes a question a hiring panel may ask.
@@ -54,10 +53,10 @@ not a commitment.
 
 | # | Working title | Ships after | Angle |
 |---|--------------|-------------|-------|
-| 1 | I threw out my AI learning plan three weeks in | After Phase 1 evidence exists | An AI coach built me a curriculum that taught Python from first principles to someone with twenty years of .NET. Why that happens, and what I replaced it with. Grounded in the completed checkpoint and first shipped service slice; not publishable merely because the plan changed. |
-| 2 | What actually transfers from twenty years of .NET to Python | Phase 1 | The real delta. Packaging, typing model, idioms. What senior enterprise habits actively mislead. Scarce and concrete. |
+| 1 | I threw out my AI learning plan three weeks in | Phase 1 candidate — choose either #1 or #2 | An AI coach built me a curriculum that taught Python from first principles to someone with twenty years of .NET. Why that happens, and what I replaced it with. Grounded in the completed checkpoint and first shipped service slice; not publishable merely because the plan changed. |
+| 2 | What actually transfers from twenty years of .NET to Python | Phase 1 candidate — choose either #1 or #2 | The real delta. Packaging, typing model, idioms. What senior enterprise habits actively mislead. Grounded in observed differences and working code. |
 | 3 | Your AI demo works. Prove it still works next Tuesday. | Phase 2 | Evals explained for enterprise architects, using a real suite catching a real regression, with the data shown. |
-| 4 | When an agent is justified, and when it's just overhead | Phase 3 | Autonomy boundaries and risk-tiered approvals, drawing on governance experience most AI builders don't have. |
+| 4 | When an agent is justified, and when it's just overhead | Phase 3 | Autonomy boundaries and risk-tiered approvals, drawing on transferable governance experience and the implemented approval boundary. |
 | 5 | Case study: a bounded agent with measured deployment evidence | Phase 3 | The full engagement — problem, build, deployment, measured before and after. The cornerstone piece. |
 | — | Agent governance in a regulated enterprise | Parallel | Sanitised pattern brief. Potentially high-value asset; requires the redaction pass, evidence review and policy check before publication. |
 | — | Accuracy is the wrong headline metric | Spare | Split from #3 if it runs long. |
