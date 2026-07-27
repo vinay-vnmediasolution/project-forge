@@ -40,7 +40,7 @@ first build. A classifier built without that produces something untestable.
 **Ambiguity drills.** One 48-hour prototype every fortnight from a deliberately
 underspecified brief and messy real input.
 
-**Writing is a deliverable, not a byproduct.** See `WRITING.md`.
+**Writing follows shipped evidence.** It is never a substitute for the build. See `WRITING.md`.
 
 ---
 
@@ -67,9 +67,10 @@ Binding for the whole programme.
 - No real client email, personal information, financial identifiers, tax file
   numbers, credentials, or production configuration enters this repository or
   any public artefact. Fixtures are synthetic.
-- **Logs record identifiers, categories, confidence scores and rule paths.
-  Never message body text.** Diagnosing a misclassification must be possible
-  without storing the content that caused it.
+- Logs use opaque correlation IDs and record categories, confidence scores and
+  generic rule codes. They never record sender, recipient, subject, body,
+  attachment content, extracted financial entities, raw prompts, raw model
+  responses or credentials. Diagnostic access and retention are bounded.
 - Client written agreement is obtained before any client data is processed,
   covering: what leaves their environment, which provider and region processes
   it, retention settings, and deletion on request.
@@ -91,7 +92,6 @@ Setup only. No learning content.
 - [ ] **Classification spec written** (see Phase 1 pre-build gate)
 - [ ] 90-minute independent checkpoint attempted cold and examined
 - [ ] Five postings pasted into `TARGET_ROLE.md`; gap scored personally
-- [ ] Article 1 drafted
 
 ---
 
@@ -108,7 +108,7 @@ defendable claim.
 
 ### Pre-build gate — the classification spec
 
-No code until this exists. One page, living in the build repository.
+No client-build code until this exists. The independent synthetic checkpoint is diagnostic work and is the sole exception. Keep the specification concise and living with the build.
 
 - The category set, and what each category means at its boundary
 - What counts as ambiguous, and what the system does when it is
@@ -120,8 +120,7 @@ No code until this exists. One page, living in the build repository.
 - What the system is never permitted to do autonomously
 - How a wrong classification is noticed, and by whom
 
-This document makes Phase 2 largely mechanical. Skipping it makes Phase 2
-impossible.
+This document makes Phase 2 testable and tractable. It does not remove the judgement required to construct representative data or choose defensible metrics.
 
 ### Learning, in the order it becomes necessary
 
@@ -150,8 +149,7 @@ examined cold. Not a weekend elapsed.
 ### Gate
 
 - Running as a supervised pilot for at least five working days
-- Every misclassification observed is captured — this becomes the Phase 2
-  golden dataset and is the most valuable output of the phase
+- Every observed misclassification is recorded client-side as a labelled case using the agreed data controls. Only synthetic or irreversibly sanitised analogues enter a public repository.
 - Teach-back on structured outputs and their failure modes
 - One extension built independently, without AI assistance
 - Evidence entry complete including "what I got wrong"
@@ -185,7 +183,7 @@ evidence it functions.
 
 | Date | Milestone |
 |------|-----------|
-| 31 Aug | Golden dataset built and labelled from real pilot misclassifications |
+| 31 Aug | Client-side golden dataset built and labelled from pilot outcomes |
 | 7 Sep | Eval suite running locally, baseline recorded |
 | 14 Sep | Evals in CI, failing the build on regression |
 | 21 Sep | Cost/latency instrumented; evidence entry; **Article 3 published** |
