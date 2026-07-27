@@ -18,9 +18,9 @@ Every module should create:
 
 ## Current focus
 
-Project Forge is in **Sprint 0: Foundation**.
+Project Forge is in **Sprint 1: Python Foundations**.
 
-The only objective is to establish a small, durable operating system for the journey and make Sprint 1 ready to start. Websites, logos, broad content channels, and speculative project repositories are intentionally out of scope.
+The objective is to understand how Python programs execute and learn the language fundamentals before using FastAPI or designing the Automation Opportunity Scorer. The scorer remains the later application project; it does not drive the early lessons.
 
 Start here:
 
@@ -29,6 +29,8 @@ Start here:
 - [Curriculum v1](CURRICULUM.md)
 - [Sprint 0 plan](SPRINT_0.md)
 - [Backlog](BACKLOG.md)
+- [Learning notes](learning/README.md)
+- [Journey log](JOURNEY.md)
 
 ## How work is organised
 
@@ -48,6 +50,5 @@ See the full definitions of done in the [project charter](PROJECT_CHARTER.md#def
 
 - Repository: public
 - Programme: active
-- Current milestone: Sprint 0 — Foundation
-- Next milestone: Sprint 1 — Production Python API
-
+- Completed milestone: Sprint 0 — Foundation
+- Current milestone: Sprint 1 — Python Foundations
