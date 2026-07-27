@@ -1,51 +1,21 @@
-# Module 01 — Python Foundations
+# Module 01 — Python Foundations (historical)
 
-## Purpose
+## Status
 
-Build a first-principles understanding of how Python represents data, controls execution, organises behaviour, communicates failure, and verifies expected behaviour.
+This module records the initial learning-first approach and the completed execution-model lesson. It is retained as honest journey evidence, but it is no longer an active prerequisite course.
 
-This module comes before HTTP, API design, FastAPI, databases, Docker, or cloud deployment.
+Python progression now follows [PLAN.md](../../PLAN.md): learn the delta from C# and .NET when the Phase 1 build exposes it, then demonstrate capability through the independent checkpoint and working service.
 
-## Learning outcomes
+## Evidence retained
 
-By the end of the module, Vinay should be able to:
+- [Lesson 01 — How Python Executes Programs](lessons/01-how-python-runs.md)
+- GitHub Issue #4
+- The 27 July 2026 entries in [JOURNEY.md](../../JOURNEY.md)
 
-- explain how Python source code is executed;
-- distinguish values, objects, variables, names, and types;
-- use and explain core collections;
-- trace conditions and loops;
-- design small functions with clear inputs and outputs;
-- organise code into modules;
-- use type hints appropriately;
-- explain, raise, and handle exceptions;
-- write and explain focused pytest tests;
-- debug and extend a small Python program independently;
-- compare the relevant concepts with familiar C# and .NET behaviour.
+## Superseded sequence
 
-## Learning units
+The previously planned units on collections, control flow, functions, modules, pytest and a workflow-metrics program are not active commitments. Those topics are learned when required by the email-classification service.
 
-1. How Python executes programs, values, and types
-2. Collections, decisions, and iteration
-3. Functions, modules, type hints, and errors
-4. Testing fundamentals with pytest
-5. Guided application: a small workflow metrics program
+## Current gate
 
-Each learning unit is represented by a GitHub issue. Lesson notes and exercises are linked from those issues.
-
-## Definition of done
-
-- Curated notes exist for each completed learning unit.
-- Knowledge checks and exercises are complete.
-- Vinay completes independent checkpoints without generated answers.
-- The workflow metrics program runs and has focused tests.
-- Vinay can explain the program and extend one behaviour.
-- The module teach-back, reflection, and `JOURNEY.md` entry are complete.
-
-## Exclusions
-
-- HTTP and REST
-- FastAPI and Pydantic
-- Automation Opportunity Scorer API design
-- Persistence
-- Docker and cloud deployment
-- AI model integration
+The Python delta is sufficient when Vinay can implement and debug the agreed 90-minute synthetic checkpoint without AI assistance and defend the result under cold examination. Elapsed time and completed lesson count do not satisfy the gate.
