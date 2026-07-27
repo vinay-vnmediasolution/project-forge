@@ -2,41 +2,23 @@
 
 GitHub issues are the executable source of truth. This file records the initial shape of work and the parking lot.
 
-## Ready for Sprint 0
+## Active Sprint 1 backlog
 
-### Review and approve the Project Forge charter
+1. Learn how Python executes programs, represents values, and binds variables.
+2. Learn collections, decisions, and iteration.
+3. Learn functions, modules, type hints, exceptions, and debugging.
+4. Learn testing fundamentals and the pytest mental model.
+5. Apply the foundations in a small pure-Python workflow metrics program.
+6. Complete the sprint demonstration, teach-back, reflection, and journey update.
 
-**Outcome:** The mission, boundaries, roles, working principles, and definitions of done are understood and accepted.
-
-**Done when:** Vinay records approval or specific changes in the issue and the charter is updated if required.
-
-### Baseline the learner profile
-
-**Outcome:** Sprint 1 starts from evidence rather than assumed skill ratings.
-
-**Done when:** Prior experience, confidence, recent hands-on evidence, gaps, weekly capacity, and preferred coaching style are recorded succinctly.
-
-### Plan Sprint 1
-
-**Outcome:** One achievable sprint goal and a bounded first API increment are ready.
-
-**Done when:** Capacity, acceptance criteria, learning objectives, demonstration, and exclusions are agreed.
-
-## Candidate Sprint 1 backlog
-
-These are candidates, not commitments:
-
-1. Write the problem statement and one primary user scenario for the Automation Opportunity Scorer.
-2. Map the request-to-response flow visually.
-3. Establish the Python project and test structure.
-4. Implement the deterministic scoring domain rule.
-5. Expose one validated API endpoint.
-6. Add unit and API-level tests.
-7. Record one architecture decision and a learning reflection.
-8. Demonstrate the vertical slice and run the sprint review.
+GitHub issues hold the executable detail. Lesson notes live under `learning/`.
 
 ## Later
 
+- HTTP and API fundamentals
+- Application architecture and API contracts
+- FastAPI and Pydantic
+- The first Automation Opportunity Scorer API slice
 - Persistence and score versioning
 - Authentication and authorization
 - Container packaging
@@ -68,4 +50,3 @@ Before moving an item to ready, ask:
 3. Is it the smallest useful next increment?
 4. Can it be completed within available capacity?
 5. What existing item will it displace?
-
