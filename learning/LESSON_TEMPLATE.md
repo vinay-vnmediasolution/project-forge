@@ -1,59 +1,43 @@
-# Lesson: Title
+# Learning note: Title
 
-**Status:** Planned  
-**Module:**  
-**Related issue:**  
-**Date started:**  
-**Date completed:**
+**Status:** Draft / Reviewed  
+**Build or issue:**  
+**Date:**
 
-## Learning objective
+Use only the sections that make this note useful. Delete empty sections rather than completing a template for its own sake.
 
-State what the learner should understand or be able to explain.
+## Problem encountered
 
-## Why it matters
+What in the active build exposed this learning need?
 
-Explain where this concept fits and why an engineer needs it.
+## Delta from prior experience
+
+What transfers from .NET, Azure, SQL, integration or delivery experience, and what behaves differently?
 
 ## Mental model
 
-Add the simplest useful diagram or execution trace.
+Add the smallest useful explanation, diagram or execution trace.
 
-## Fundamentals
+## Worked example
 
-Explain the concept from first principles.
+Use a minimal example that clarifies the concept. It may come from the active build when confidentiality and scope allow.
 
-## Important terminology
+## Failure modes and trade-offs
 
-Define only the terms needed for this lesson.
+What commonly breaks, misleads or changes the design decision?
 
-## Connection to prior experience
+## Independent check
 
-Relate the concept to .NET, Azure, enterprise integration, delivery, consulting, or product work where useful.
-
-## Worked examples
-
-Use examples independent of the active application project.
-
-## Common mistakes
-
-Record likely misconceptions and failure modes.
-
-## Knowledge check
-
-Questions that test understanding rather than memory.
-
-## Exercise
-
-Provide a focused practice task.
+What can Vinay implement, diagnose or explain without generated assistance?
 
 ## Teach-back
 
-Add Vinay's reviewed explanation in his own words.
+Record Vinay's reviewed explanation in his own words. Do not generate it for him.
 
-## Reflection
+## Remaining uncertainty
 
-Record what became clearer, what was difficult, and what remains uncertain.
+State what is not yet understood or evidenced. “None” should survive cold examination.
 
-## Further reading
+## References
 
-Add only useful, authoritative references.
+Link only useful, authoritative sources. Time-sensitive claims require a dated source.
