@@ -34,17 +34,23 @@ If chat instructions conflict with committed project decisions, identify the con
 
 Agents should accelerate implementation without replacing learning:
 
+- Follow the sequence in `CURRICULUM.md`; do not jump from orientation directly to project design.
+- Treat conceptual understanding and the knowledge check as gates before project application.
+- Keep worked examples separate from the active project until the learner is ready to apply them.
 - Ask Vinay to explain important concepts or decisions during reviews.
 - Make generated code understandable and appropriately sized.
 - State what is assumed.
 - When several designs are reasonable, present the trade-off and recommend one.
 - Do not inflate the stack to look “production-grade.”
+- Store curated notes under `learning/` and update `JOURNEY.md` after meaningful progress.
+- Do not write Vinay's teach-back or personal reflection on his behalf.
 
 ## Current scope
 
-Sprint 0 is documentation and GitHub operating structure only. Do not add:
+Sprint 1 is Python fundamentals. Do not add:
 
-- application code;
+- FastAPI, HTTP endpoints, databases, Docker, or cloud deployment;
+- Automation Opportunity Scorer API design;
 - a website or documentation generator;
 - branding assets;
 - social or community channels;
@@ -59,4 +65,3 @@ Before declaring work complete:
 - inspect the final diff;
 - report exactly what changed;
 - name any remaining blocker or unverified assumption.
-
