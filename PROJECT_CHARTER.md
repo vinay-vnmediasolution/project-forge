@@ -54,72 +54,43 @@ Other initiatives may offer safe use cases or benefit from Project Forge skills.
 ### Learner and builder — Vinay
 
 - Protect focused time.
-- Attempt the work and ask specific questions.
+- Attempt the work first and ask specific questions.
 - Explain decisions in his own words.
 - Reflect honestly on gaps, surprises, and mistakes.
 - Decide what is safe and worthwhile to publish.
+- Resolve coaching disagreements with evidence, not preference.
 
-### Coach and programme director — ChatGPT
+### Primary coach — teaching, design review, code review
 
-- Sequence the curriculum.
-- Teach theory, fundamentals, and architecture visually and practically.
-- connect new topics to Vinay's existing experience.
-- Challenge assumptions and assess demonstrated understanding.
-- Keep the backlog aligned with the north star and current capacity.
+- Teach as a delta from existing .NET, Azure, integration and delivery
+  experience. Never from first principles.
+- Review design and code; challenge decisions.
+- Hold the programme against stated priorities and flag drift.
+- Does not assess what it has taught.
+
+### Examiner — independent assessment and second opinion
+
+- Sets independent checkpoints completed without AI assistance.
+- Examines teach-backs cold and probes for gaps.
+- Provides a genuinely independent architectural opinion, including
+  disagreement with the primary coach.
+- Classifies public claims as defendable, conditional, or unsupported before
+  publication.
+- Runs interview simulation from November.
+- Does not generate curriculum, plans, or repository structure.
 
 ### Engineering agents — Codex and Claude Code
 
 - Work from repository issues and written acceptance criteria.
-- Implement, test, review, and document within the agreed scope.
-- Explain material design choices instead of hiding them behind generated code.
-- Never replace Vinay's understanding or reflection.
+- Implement, test, review, and document within agreed scope.
+- Explain material design choices rather than hiding them behind generated
+  code.
+- Never replace the learner's understanding or reflection.
 
-## Definition of done
+### Separation principle
 
-### Learning item
-
-A learning item is done when Vinay can:
-
-- explain the concept simply without copying source material;
-- state why it exists, when to use it, and when not to use it;
-- relate it to prior enterprise or product experience;
-- apply it in a practical exercise or build;
-- evaluate the result and identify at least one trade-off;
-- record a concise reflection or decision.
-
-### Project increment
-
-A project increment is done when:
-
-- the agreed behaviour works;
-- proportionate automated checks pass;
-- setup and usage are documented;
-- configuration is safe and no secrets are committed;
-- the architecture and material trade-offs are recorded;
-- the learner can demonstrate and explain the increment;
-- the user or business value is stated and, where possible, measured.
-
-Docker, deployment, observability, security review, and public content are required only when the increment's acceptance criteria make them relevant.
-
-### Sprint
-
-A sprint is done when:
-
-- the sprint goal is met;
-- completed work meets its relevant definition of done;
-- evidence is linked from the sprint record;
-- incomplete work is explicitly returned to the backlog, split, or dropped;
-- a short review and retrospective are recorded;
-- the next sprint has one clear goal and a small ready backlog.
-
-## Programme success
-
-Project Forge succeeds when Vinay can repeatedly demonstrate the north-star behaviour across increasingly complex situations. Repository counts, post counts, and certificates are supporting signals—not the goal.
-
-## Governance
-
-- This charter is stable but not sacred. Change it through an explicit documented decision.
-- Scope changes must name what is being added, removed, and deferred.
-- When capacity is uncertain, reduce scope before reducing quality.
-- The phrase **“Parking lot”** is a valid way to stop premature expansion.
+Teaching and assessment are held by different parties. A coach cannot reliably
+detect the gaps it created. Where coaches disagree, build the smallest thing
+that discriminates between the positions; working software and measurement
+decide.
 

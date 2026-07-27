@@ -65,3 +65,20 @@ Before declaring work complete:
 - inspect the final diff;
 - report exactly what changed;
 - name any remaining blocker or unverified assumption.
+
+## Roles and separation
+
+Role definitions live in `PROJECT_CHARTER.md` under "Roles". Teaching and
+assessment are deliberately separated; see the separation principle there.
+
+Engineering agents work only from issues with written acceptance criteria.
+Where an issue conflicts with `PLAN.md`, `PLAN.md` wins and the issue is
+corrected.
+
+## Data boundary
+
+Binding on all agents. No real client email, personal information, financial
+identifiers, credentials, or production configuration in this repository.
+Fixtures are synthetic. Logs record identifiers, categories, confidence scores
+and rule paths — never message body text.
+

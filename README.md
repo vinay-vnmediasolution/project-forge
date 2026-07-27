@@ -16,21 +16,12 @@ Every module should create:
 4. A reflection on what changed in the learner's understanding.
 5. A reusable or public output when it is safe and genuinely valuable.
 
-## Current focus
+- **Current focus:** replace the Sprint 1 Python Foundations paragraph with
+  Phase 1 of `PLAN.md` — ship an email triage service as a supervised client
+  pilot by 17 August.
+- **Start here list:** remove the `CURRICULUM.md` and `SPRINT_0.md` links; add
+  `PLAN.md`, `TARGET_ROLE.md`, `EVIDENCE.md`, `WRITING.md`.
 
-Project Forge is in **Sprint 1: Python Foundations**.
-
-The objective is to understand how Python programs execute and learn the language fundamentals before using FastAPI or designing the Automation Opportunity Scorer. The scorer remains the later application project; it does not drive the early lessons.
-
-Start here:
-
-- [Project charter](PROJECT_CHARTER.md)
-- [Roadmap v1](ROADMAP.md)
-- [Curriculum v1](CURRICULUM.md)
-- [Sprint 0 plan](SPRINT_0.md)
-- [Backlog](BACKLOG.md)
-- [Learning notes](learning/README.md)
-- [Journey log](JOURNEY.md)
 
 ## How work is organised
 
@@ -50,5 +41,4 @@ See the full definitions of done in the [project charter](PROJECT_CHARTER.md#def
 
 - Repository: public
 - Programme: active
-- Completed milestone: Sprint 0 — Foundation
-- Current milestone: Sprint 1 — Python Foundations
+- current milestone becomes Phase 1 — Ship one real LLM service.

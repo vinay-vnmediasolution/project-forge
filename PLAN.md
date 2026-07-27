@@ -3,9 +3,9 @@
 Replaces `CURRICULUM.md` and `SPRINT_0.md`. Twelve weeks, dated. Roadmap
 stages 5–7 stay directional and get no calendar until this completes.
 
-**Governing constraint:** every phase ends with software in use by a real
-person, an entry in `EVIDENCE.md`, and one published write-up. A phase ending
-in documents or understanding alone has not ended.
+**Governing constraint:** every phase ends with software in supervised use by a
+real person, an entry in `EVIDENCE.md`, and one published write-up. A phase
+ending in documents or understanding alone has not ended.
 
 ---
 
@@ -15,19 +15,30 @@ in documents or understanding alone has not ended.
 wall. Fundamentals are taught as the *delta* from existing .NET, C#, SQL and
 Azure knowledge — never from first principles.
 
+**Progression is demonstrated, never timed.** No learning item completes
+because a period elapsed. It completes when an independent checkpoint is
+passed: implementing and debugging without assistance, then examined cold.
+
 **Teaching and examination are separated.** The coach that teaches a concept
 does not assess it. A coach cannot reliably detect the gaps it created.
+
+**Coaching disputes are settled by evidence.** Where the coaches disagree,
+build the smallest thing that discriminates between the two positions. Working
+software and measurement decide — not whichever assistant sounds more certain.
+
+**Evaluation is a design activity before it is a tooling activity.** Tooling
+belongs to Phase 2. Deciding what correct means, what ambiguous means, when the
+system should abstain, and what each error type costs happens *before* the
+first build. A classifier built without that produces something untestable.
 
 **Two tracks, different clocks.**
 
 - *Fast track* — this plan. Dated, gated on shipping, non-negotiable.
 - *Depth track* — 2–3 hours weekly. Undated, no deliverables, one substantial
-  thing at a time: papers, book chapters, system teardowns. **The depth track
-  never blocks the fast track.** Reading about a technique instead of shipping
-  is the exact failure mode this rule exists to prevent.
+  thing at a time. **The depth track never blocks the fast track.**
 
 **Ambiguity drills.** One 48-hour prototype every fortnight from a deliberately
-underspecified brief and messy real input. This is the interview and the job.
+underspecified brief and messy real input.
 
 **Writing is a deliverable, not a byproduct.** See `WRITING.md`.
 
@@ -43,8 +54,26 @@ repository update, case study, diagram, article or post may satisfy the
 sharing step; no channel is ever mandatory.
 
 Extension for the public-repo era: **do not publish a claim that cannot be
-defended in an interview.** Anything written publicly becomes a question a
-panel is entitled to ask.
+defended in an interview.** Claims are classified before publication as
+defendable, conditional (fixable by precision) or unsupported. Conditional
+claims are rewritten, not deleted.
+
+---
+
+## Data boundary
+
+Binding for the whole programme.
+
+- No real client email, personal information, financial identifiers, tax file
+  numbers, credentials, or production configuration enters this repository or
+  any public artefact. Fixtures are synthetic.
+- **Logs record identifiers, categories, confidence scores and rule paths.
+  Never message body text.** Diagnosing a misclassification must be possible
+  without storing the content that caused it.
+- Client written agreement is obtained before any client data is processed,
+  covering: what leaves their environment, which provider and region processes
+  it, retention settings, and deletion on request.
+- The client has obligations to their own customers. This tool inherits them.
 
 ---
 
@@ -52,50 +81,77 @@ panel is entitled to ask.
 
 Setup only. No learning content.
 
-- [ ] Repo restructured: `TARGET_ROLE.md`, `EVIDENCE.md`, `PLAN.md`,
-      `WRITING.md` in; `CURRICULUM.md` and `SPRINT_0.md` retired
+- [ ] Push `TARGET_ROLE.md`, `EVIDENCE.md`, `PLAN.md`, `WRITING.md`
+- [ ] Update charter Roles section, `AGENTS.md` and README in the same commit —
+      the repository must not describe two different operating models
+- [ ] Retire `CURRICULUM.md` and `SPRINT_0.md`
 - [ ] `.private/` created and gitignored
-- [ ] Five real postings pasted into `TARGET_ROLE.md`, gap-scored personally
-- [ ] Sprint 1 issue rewritten around shipping
-- [ ] Examiner role handed over and confirmed
-- [ ] Client conversation: Phase 1 scope confirmed
-- [ ] Article 1 drafted (the recalibration piece — see `WRITING.md`)
+- [ ] Sprint 1 issue rewritten; old issue closed
+- [ ] Client conversation: scope, consent, data handling agreed in writing
+- [ ] **Classification spec written** (see Phase 1 pre-build gate)
+- [ ] 90-minute independent checkpoint attempted cold and examined
+- [ ] Five postings pasted into `TARGET_ROLE.md`; gap scored personally
+- [ ] Article 1 drafted
 
 ---
 
 ## Phase 1 — 4 to 24 August: ship one real LLM service
 
-**Goal:** an email triage and classification service in genuine daily use at a
-client practice.
+**Goal:** an email triage and classification service running as a **supervised
+pilot** at a client practice — read-only input, human approval on every
+outcome, safe failure, auditable decisions, immediate rollback.
 
-**Not** a Python course. Language delta gets one weekend and is sufficient when
-it stops blocking the build.
+Not "in production." Supervised pilot is the honest description and the
+defendable claim.
 
 **Requirements:** R1, R2, R7
+
+### Pre-build gate — the classification spec
+
+No code until this exists. One page, living in the build repository.
+
+- The category set, and what each category means at its boundary
+- What counts as ambiguous, and what the system does when it is
+- Abstention: when the system declines to classify rather than guessing
+- **Error cost asymmetry.** In accounting email these costs differ by orders
+  of magnitude — a missed statutory deadline notice is severe; a newsletter
+  wrongly queued for review costs seconds. This asymmetry drives thresholds,
+  abstention behaviour, and what may never be auto-filed.
+- What the system is never permitted to do autonomously
+- How a wrong classification is noticed, and by whom
+
+This document makes Phase 2 largely mechanical. Skipping it makes Phase 2
+impossible.
 
 ### Learning, in the order it becomes necessary
 
 - Python delta from C#: dynamic and duck typing, truthiness, comprehensions,
   context managers, decorators, the import and module model
 - Environment and packaging: virtualenv, dependency pinning, project layout.
-  Budget real time — this is where .NET habits mislead most
+  Where .NET habits mislead most
 - Pydantic: validation, model design, why it matters for LLM output
 - FastAPI: routing, dependency injection, request lifecycle
 - pytest: fixtures, parametrisation, structure
 - Structured LLM outputs: schema design, failure modes, retry and fallback
-- Secrets and configuration handling
+- Secrets, configuration, and privacy-preserving logging
+
+**Gate on the Python delta:** the 90-minute independent checkpoint passed and
+examined cold. Not a weekend elapsed.
 
 ### Milestones
 
 | Date | Milestone |
 |------|-----------|
-| 10 Aug | Local service classifies a real corpus, tests passing |
-| 17 Aug | **First version in genuine client use** |
+| 3 Aug | Classification spec complete; checkpoint passed |
+| 10 Aug | Deterministic baseline classifying a synthetic corpus, tests passing |
+| 17 Aug | **Supervised pilot live with the client** |
 | 24 Aug | Hardened; `EVIDENCE.md` entry; **Article 2 published** |
 
 ### Gate
 
-- In daily use, not demonstrated once
+- Running as a supervised pilot for at least five working days
+- Every misclassification observed is captured — this becomes the Phase 2
+  golden dataset and is the most valuable output of the phase
 - Teach-back on structured outputs and their failure modes
 - One extension built independently, without AI assistance
 - Evidence entry complete including "what I got wrong"
@@ -106,7 +162,8 @@ it stops blocking the build.
 ## Phase 2 — 25 August to 21 September: evals and data
 
 **Goal:** prove the Phase 1 service works, with a suite that catches it when it
-stops working.
+stops working. The classification spec becomes the specification the evals test
+against.
 
 The differentiating phase. Most self-taught portfolios contain a demo and no
 evidence it functions.
@@ -116,20 +173,19 @@ evidence it functions.
 ### Learning
 
 - Golden dataset construction: sampling, labelling, edge case selection
-- Eval design: precision/recall trade-offs where error costs differ, and why
-  aggregate accuracy misleads
+- Eval design against asymmetric error costs — why aggregate accuracy misleads
+  when one error type is catastrophic and the other trivial
 - Regression testing for non-deterministic output
 - LLM-as-judge: where it works, where it fails, validating the judge
 - Cost and latency instrumentation
 - Data engineering: SQL at speed against unfamiliar schemas, messy data
-  wrangling, pipeline basics. Conceptual exposure to Spark, Airflow, dbt —
-  enough to hold a design conversation, not to claim expertise
+  wrangling, pipeline basics. Conceptual exposure to Spark, Airflow, dbt
 
 ### Milestones
 
 | Date | Milestone |
 |------|-----------|
-| 31 Aug | Golden dataset built and labelled |
+| 31 Aug | Golden dataset built and labelled from real pilot misclassifications |
 | 7 Sep | Eval suite running locally, baseline recorded |
 | 14 Sep | Evals in CI, failing the build on regression |
 | 21 Sep | Cost/latency instrumented; evidence entry; **Article 3 published** |
@@ -137,7 +193,7 @@ evidence it functions.
 ### Gate
 
 - A deliberately introduced regression is caught by the suite
-- Teach-back on why aggregate accuracy is the wrong headline metric
+- Teach-back on why aggregate accuracy is the wrong headline metric here
 - Baseline and current numbers recorded and explainable
 - Timed SQL exercise against an unfamiliar schema
 - Re-score `TARGET_ROLE.md`
@@ -147,7 +203,7 @@ evidence it functions.
 ## Phase 3 — 22 September to 26 October: bounded agent, deployed
 
 **Goal:** an agent with real autonomy inside real constraints — deployed,
-observable, and written up with measured before and after.
+observable, written up with measured before and after.
 
 **Requirements:** R1, R2, R5, R6, R8
 
@@ -163,8 +219,7 @@ observable, and written up with measured before and after.
 
 **Transferable asset:** existing enterprise experience with risk-gated
 automation and read/write/destructive action classification maps directly onto
-this design. That is an architectural conversation most candidates cannot have
-— make it explicit in the write-up.
+this design. Make it explicit in the write-up.
 
 ### Milestones
 
@@ -188,8 +243,7 @@ this design. That is an architectural conversation most candidates cannot have
 
 Interview preparation as a separate track: ambiguous problem framing, live
 prototyping, stakeholder translation, system design under uncertainty. Not
-algorithm drills — reported FDE interviews test deployment thinking under
-ambiguity.
+algorithm drills.
 
 Applications begin once at least two evidence entries are publicly verifiable.
 
@@ -202,12 +256,14 @@ Applications begin once at least two evidence entries are publicly verifiable.
    reverse order was tried and produced documents.
 3. **No new governance documents.** This file, the charter, the backlog, the
    journey log, the evidence ledger and the writing pipeline are sufficient.
-   Adding process is the known drift.
+   Build-specific artefacts — specs, ADRs — live in the build repository.
 4. **Gates are negotiable on date, never on evidence.**
 5. **If two weeks pass with no commits containing code, the plan has failed**
    and gets diagnosed rather than rewritten.
-6. **Writing never substitutes for building.** An article about work not yet
-   done does not publish.
+6. **Writing never substitutes for building.**
+7. **Claims match reality.** "Supervised pilot" is not "production." "Reduced
+   processing time" requires a measurement. Precision in the repository is
+   practice for precision in an interview.
 
 ---
 
