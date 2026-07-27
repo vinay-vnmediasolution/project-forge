@@ -61,3 +61,29 @@ CPython performs both compilation and interpretation. Names do not carry permane
 
 - `learning/01-python-foundations/lessons/01-how-python-runs.md`
 - GitHub Issue #4
+
+## 2026-07-27 — FDE delivery recalibration
+
+### What changed
+
+A second review found that Project Forge had produced substantial governance and lesson material but no code, and that the teaching sequence was miscalibrated for an experienced .NET, SQL, Azure and enterprise-integration practitioner.
+
+### Decision
+
+- Make Forward Deployed Engineer capability the explicit near-term target.
+- Replace the standalone curriculum with the dated fast track in `PLAN.md`.
+- Retire the Automation Opportunity Scorer and use a real accounting-practice email-classification problem.
+- Learn Python as a demonstrated delta from C# and .NET, not a timed beginner course.
+- Separate primary coaching from independent examination.
+- Define classification boundaries, abstention and asymmetric error costs before client-build code.
+- Treat Phase 1 as a read-only, human-approved supervised pilot, not production.
+- Keep the real corpus client-side and public fixtures synthetic.
+- Make writing follow shipped evidence and hostile-panel examination.
+
+### Historical record
+
+The earlier learning-first reset and completed CPython lesson remain in this journey because they happened and contain useful learning. They no longer define the active delivery model.
+
+### Next
+
+Review the classification specification, complete the independent checkpoint, and then build the deterministic baseline.
