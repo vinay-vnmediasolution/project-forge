@@ -90,7 +90,48 @@ _Last updated: 6 August 2026_
 - Brief elbow discomfort occurred while setting up a shoulder press; it settled during the session.
 - Stop or modify an exercise if pain is sharp, worsening or changes normal movement.
 
-## Current training state
-- Most recently completed: **Legs B calibration session**.
-- Added at the end of that session: standing Smith calf raise, 20 kg per side × 12 × 3; hanging knee raises, 15 × 3.
-- Next planned session: **Pull B**, preferably after a recovery day or when readiness is good.
+## Recent completed sessions
+
+### Pull A
+- Pull-ups: 6, 6, 6, 6
+- Single-arm dumbbell row: 30 kg × 10 × 3 each side
+- Lat pulldown: 60 × 10, 60 × 10, 70 × 8
+- Seated cable row: 50 × 10, 60 × 10, 65 × 8
+- EZ-bar curl: 27.5 × 10 × 3
+- Hammer curl: 12.5 × 10 × 3
+
+### Push B
+- Barbell bench: 60 × 10 @ 3–4 RIR; 70 × 6 @ 2 RIR; 70 × 6 @ 2 RIR; **80 × 6 @ 0 RIR**
+- Incline dumbbell press: 30 × 8 × 3
+- Machine chest press: 40 × 10; 60 × 6; 60 × 6
+- Lateral raise: 8 × 10 × 3
+- Rope pushdown: 20 × 12; 22.5 × 10; 22.5 × 8
+- Overhead cable extension: 15 × 10; 17.5 × 10; 17.5 × 10
+
+### Optional Arms + Core
+- EZ-bar curl: 30 × 8 × 3
+- Hammer curl: 15 × 8 × 3
+- Rope pushdown: 22.5 × 10; 25 × 10; 25 × 10
+- Overhead cable extension: 17.5 × 12; 21.25 × 10; 21.25 × 10
+- Rear-delt fly: 41 × 12; 45 × 10; 45 × 10
+- Hanging knee raise: 15 × 3
+
+### Legs B — latest session
+- Smith squat: warm-up; 30 kg per side × 8 × 2; fourth set intentionally skipped
+- Dumbbell RDL: 22.5 × 10; 25 × 10; 27.5 × 8
+- Leg press: 60 kg per side × 10; 70 × 10; **80 × 10 @ 1–2 RIR**
+- Leg curl: 36 × 12; 41 × 10; 41 × 10
+- Standing Smith calf raise: **20 kg per side × 12 × 3**
+- Hanging knee raise: **15 × 3**
+
+## Current training state and next-session handoff
+- Most recently completed: **Legs B**.
+- The calf and core work above completes that workout; nothing else needs to be added.
+- Next planned workout: **Pull B**, after a recovery day if legs or overall fatigue remain high.
+- Pull B starting plan is maintained in `workout-program.md`.
+- Important next-session progressions:
+  - Leg press: consolidate 80 kg per side rather than increasing immediately.
+  - Dumbbell RDL: start working sets at 27.5 kg each for 8–10 reps.
+  - Leg curl: use 41 kg × 10 as the working prescription.
+  - Standing Smith calf raise: repeat 20 kg per side × 12 × 3 before increasing.
+  - Hanging knee raise: repeat 15 × 3 with controlled tempo.
