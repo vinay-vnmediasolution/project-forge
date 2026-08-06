@@ -81,6 +81,14 @@ _Last updated: 6 August 2026_
 - Common pre-workout choice: banana 30–60 minutes before training.
 - Typical recovery target: 7.5–8.5 hours sleep, 8,000–12,000 steps and 10–15 minutes mobility on recovery days.
 
+## Daily nutrition log
+
+### 6 August 2026
+**Breakfast**
+- 3 boiled eggs
+- Shake with blueberries, strawberries, Greek yoghurt, chia seeds and protein powder
+- Black coffee
+
 ## Body-metric tracking
 - Record morning weight frequently under similar conditions.
 - Use a 7-day average rather than reacting to one reading.
