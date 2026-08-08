@@ -1,6 +1,6 @@
 # Project Athletic 80 / Forge Athletic
 
-_Last updated: 6 August 2026_
+_Last updated: 8 August 2026_
 
 ## Athlete profile
 - Age: 45
@@ -82,6 +82,13 @@ _Last updated: 6 August 2026_
 - Typical recovery target: 7.5–8.5 hours sleep, 8,000–12,000 steps and 10–15 minutes mobility on recovery days.
 
 ## Daily nutrition log
+
+### 8 August 2026
+**Breakfast**
+- Black coffee
+- 3 boiled eggs
+- Shake: 1 scoop protein powder, blueberries, strawberries, a few walnuts, chia seeds and 1½ cups Greek yoghurt
+- Creatine: 5 g (daily dose taken)
 
 ### 6 August 2026
 **Breakfast**
