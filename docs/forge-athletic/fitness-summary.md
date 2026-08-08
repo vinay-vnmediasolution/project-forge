@@ -40,15 +40,17 @@ _Last updated: 8 August 2026_
 - Overhead cable triceps extension: **21.25 kg × 10 × 2** after 17.5 kg × 12
 
 ### Pull
-- Pull-ups: **bodyweight 6, 6, 6, 6**
+- Pull-ups: **bodyweight 6, 6, 6, 6**, latest final set @ 1 RIR
 - Single-arm dumbbell row: **30 kg × 10 × 3 each side**
-- Chest-supported row: **70 kg × 10, 10, 8**
-- Lat pulldown: **60 kg × 10, 60 kg × 10, 70 kg × 8**
-- Seated cable row: **50 kg × 10, 60 kg × 10, 65 kg × 8**
+- Chest-supported row historical machine benchmark: **70 kg × 10, 10, 8**
+- Chest-supported dumbbell row on incline bench: **30 kg each × 10 @ 1–2 RIR** top working set after 25 kg × 10 × 2
+- Lat pulldown working load: **70 kg × 8 × 2 @ 1–2 RIR**; top set **80 kg × 8 @ 1 RIR**
+- Seated row machine: **71 kg × 8 × 2 @ 1–2 RIR** after 61 kg × 10 @ 3–4 RIR
+- Seated cable row historical benchmark: **50 kg × 10, 60 kg × 10, 65 kg × 8**
 - Straight-arm pulldown: **21.25 kg × 12, 12, 10**
 - Face pull: **15 kg × 15 × 3**
-- Rear-delt fly machine: **45 kg × 10 × 2** after 41 kg × 12
-- EZ-bar curl: **30 kg × 8 × 3**
+- Rear-delt fly machine working load: **45 kg × 10 @ 1–2 RIR**; top/test set **50 kg × 9 @ 0–1 RIR**
+- EZ-bar curl working volume: **27.5 kg × 12 @ 1–2 RIR**; top set **32.5 kg × 8 @ 1 RIR**
 - Hammer curl: **15 kg each × 8 × 3**
 
 ### Legs and core
@@ -135,7 +137,7 @@ _Last updated: 8 August 2026_
 - Rear-delt fly: 41 × 12; 45 × 10; 45 × 10
 - Hanging knee raise: 15 × 3
 
-### Legs B — latest session
+### Legs B
 - Smith squat: warm-up; 30 kg per side × 8 × 2; fourth set intentionally skipped
 - Dumbbell RDL: 22.5 × 10; 25 × 10; 27.5 × 8
 - Leg press: 60 kg per side × 10; 70 × 10; **80 × 10 @ 1–2 RIR**
@@ -143,14 +145,23 @@ _Last updated: 8 August 2026_
 - Standing Smith calf raise: **20 kg per side × 12 × 3**
 - Hanging knee raise: **15 × 3**
 
+### Pull B — 8 August 2026
+- Pull-ups: **6 @ 1–2 RIR; 6 @ 1–2 RIR; 6 @ 1–2 RIR; 6 @ 1 RIR**
+- Chest-supported dumbbell row on incline bench: **25 kg each × 10 @ 1–2 RIR; 25 × 10 @ 2–3 RIR; 30 × 10 @ 1–2 RIR**
+- Lat pulldown: **70 kg × 8 @ 1–2 RIR; 70 × 8 @ 1–2 RIR; 80 × 8 @ 1 RIR**
+- Seated row machine: **61 kg × 10 @ 3–4 RIR; 71 × 8 @ 1–2 RIR; 71 × 8 @ 1–2 RIR**
+- Rear-delt fly machine: **45 kg × 10 @ 2–3 RIR; 50 × 9 @ 0–1 RIR; 45 × 10 @ 1–2 RIR**
+- EZ-bar curl: **27.5 kg × 12 @ 1–2 RIR; 32.5 × 8 @ 1 RIR; 32.5 × 6** (RIR not provided for final set)
+- Modification: programmed chest-supported row machine was unavailable/unclear, so incline-bench chest-supported dumbbell row was used and calibrated separately.
+- Modification: seated row machine was used rather than the programmed cable-row variation; machine load is tracked separately.
+
 ## Current training state and next-session handoff
-- Most recently completed: **Legs B**.
-- The calf and core work above completes that workout; nothing else needs to be added.
-- Next planned workout: **Pull B**, after a recovery day if legs or overall fatigue remain high.
-- Pull B starting plan is maintained in `workout-program.md`.
-- Important next-session progressions:
-  - Leg press: consolidate 80 kg per side rather than increasing immediately.
-  - Dumbbell RDL: start working sets at 27.5 kg each for 8–10 reps.
-  - Leg curl: use 41 kg × 10 as the working prescription.
-  - Standing Smith calf raise: repeat 20 kg per side × 12 × 3 before increasing.
-  - Hanging knee raise: repeat 15 × 3 with controlled tempo.
+- Most recently completed: **Pull B — 8 August 2026**.
+- Next planned workout in the rolling cycle: **Push A**, with recovery first if needed.
+- Pull B progression notes:
+  - Pull-ups: keep bodyweight × 6 × 4 and begin adding a seventh rep to one set when recovered.
+  - Chest-supported dumbbell row: use **30 kg each × 8–10** as the next-session working benchmark for this incline-bench variation; confirm repeatability before increasing.
+  - Lat pulldown: keep **70 kg** as the normal working load; **80 kg × 8 @ 1 RIR** is the current top-set benchmark and should be consolidated before progressing.
+  - Seated row machine: use **71 kg × 8–10** as the current working prescription when using this machine.
+  - Rear-delt fly: keep **45 kg × 10** as the working load; 50 kg remains a top/test load because 50 × 9 reached 0–1 RIR.
+  - EZ-bar curl: use **27.5 kg for repeatable volume** and 32.5 kg as a top set; do not treat 32.5 kg as a 3-set working load yet.
