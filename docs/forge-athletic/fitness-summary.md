@@ -90,6 +90,10 @@ _Last updated: 8 August 2026_
 - Shake: 1 scoop protein powder, blueberries, strawberries, a few walnuts, chia seeds and 1½ cups Greek yoghurt
 - Creatine: 5 g (daily dose taken)
 
+**Pre-workout / supplements**
+- 1 banana
+- Magnesium: 1 tablet dissolved in one glass of water
+
 ### 6 August 2026
 **Breakfast**
 - 3 boiled eggs
